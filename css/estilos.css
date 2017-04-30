@@ -1,6 +1,5 @@
 body{
-	background: #f2f2f2;
-	color: black;
+	background: black;
 	font-size: 16px;
 	font-family: sans-serif;
 }
@@ -52,21 +51,68 @@ footer
 	width: 100%;
 
 	}
-	#imgizquierda
+	#imgizquierda, #imgderecha
 	{
 	background-color: #D5C75F;
 	width: 50%;
+	border: 1px;
 	}
-	#imgderecha
-	{
-	background-color: #D5C75F;
-	width: 50%;
-	}
+
 	#piepagina
 	{
 	background-color: #C6D5C5;
 	width: 100%;
 	}
+
+
+div [class*="imagen"]{
+  min-height: 200px;
+  flex: 1 2 50%;
+}
+
+.imagen1 {
+  background-color: #D5C75F;
+  order: 1;
+  flex-grow: 1;
+}
+
+.imagen2 {
+	  background-color: #D5C75F;
+	  order: 2;
+	  flex-grow: 2;
+}
+
+.imagen3 {
+			  background-color: #D5C75F;
+			  order: 3;
+			  flex-grow: 3;
+}
+
+.imagen4 {
+			  background-color: #D5C75F;
+			  order: 4;
+			  flex-grow: 4;
+}
+
+.imagen5 {
+			  background-color: #D5C75F;
+			  order: 5;
+			  flex-grow: 5;
+}
+
+.imagen6 {
+			  background-color: #D5C75F;
+			  order: 6;
+			  flex-grow: 6;
+}
+
+
+#Detallefotos {
+	display: flex;
+  flex-flow: row wrap;
+}
+
+/* Responsive */
 
 @media screen and (max-width: 900px){
 
@@ -83,4 +129,10 @@ footer
 	{
 		width: 100%;
 	}
+
+	div [class*="imagen"]{
+	  min-height: 200px;
+	  flex: 1 100%;
+	}
+
 }
