@@ -181,7 +181,7 @@ footer
 {
 	font-family: 'Dancing Script', cursive;
 	margin: 0 auto;
-	height: 1em;
+
 	background-color: #C6D5C5;
 	color:black;
 	width: 100%;
@@ -191,7 +191,7 @@ footer
 	text-align: left;
 }
 
-footer section article ul {
+footer section article ul{
 	list-style-type: none;
 	text-align: left;
 }
@@ -205,3 +205,19 @@ footer section article {
 	background-color: #C6D5C5;
 	width: 25%;
 }
+
+@media screen and (max-width: 900px){
+
+	#contacto, #terminos, #redessociales, #derechos
+	{
+	width: 25%;
+	}
+
+}
+
+@media screen and (max-width: 899px){
+
+	#contacto, #terminos, #redessociales, #derechos
+	{
+		width: 100%;
+	}
