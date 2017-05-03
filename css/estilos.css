@@ -13,15 +13,65 @@ body{
 
 header
 {
+	font-family: 'Dancing Script', cursive;
 	margin: 0 auto;
-	height: 1em;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	text-align: center;
+	height: 4em;
+	padding: 0;
 	background-color: #5b7989;
+	color: white;
 	border-radius: 10px 10px 0 0;
-	color:white;
 	width: 100%;
+
+}
+
+h1 {
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+}
+
+#menu nav a:hover, #menu nav a:active,
+#banner nav a:link, #banner nav a:visited,
+#menu nav .active a:link, #menu nav .active a:visited {
+	color: white;
+}
+
+#titulo {
+	width: 50%;
+  height: 100%;
+	font-size: 1.45em;
+	float: left;
+	text-shadow: 2px 2px 2px #02010a;
+
+}
+
+#menu {
+	width: 50%;
+  height: 100%;
+  float: right;
+
+
+}
+
+/*
+	text-align: left;
+	color: white;
+	width: 50%;
+	padding-left: 10px;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px #02010a;
+	 */
+}
+
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
 }
 
 article
@@ -32,17 +82,6 @@ article
 	padding: 2%;
 	text-align: center;
 	height: 400px;
-}
-
-footer
-{
-	margin: 0 auto;
-	height: 1em;
-	background-color: #C6D5C5;
-	color:white;
-	width: 100%;
-	border-radius: 0 0 10px 10px;
-	margin-bottom: 5px;
 }
 
 	#imgcentral
@@ -135,4 +174,34 @@ div [class*="imagen"]{
 	  flex: 1 100%;
 	}
 
+}
+
+
+footer
+{
+	font-family: 'Dancing Script', cursive;
+	margin: 0 auto;
+	height: 1em;
+	background-color: #C6D5C5;
+	color:black;
+	width: 100%;
+	border-radius: 0 0 10px 10px;
+	margin-bottom: 5px;
+	list-style-type: none;
+	text-align: left;
+}
+
+footer section article ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+footer section article {
+	text-align: left;
+}
+
+#contacto, #terminos, #redessociales, #derechos
+{
+	background-color: #C6D5C5;
+	width: 25%;
 }
